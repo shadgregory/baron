@@ -1,5 +1,4 @@
 \include "english.ly"
-\include "barres.ly"
 
 \paper {
   #(set-paper-size "a4")
