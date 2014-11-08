@@ -52,10 +52,10 @@ melody = \relative c'' {
 bass = \relative c' {
   r8 r4 |
   a2. a4 |
-  gs2 r2 |
-  b2 r4 gs |
+  gs1 |
+  b2. gs4 |
   a2. a4 |
-  b2 r2 | %5
+  b1 | %5
   c4 c8 d e4 e, |
   f4 f8 e8 f2 |
   g4 g8 f g2 |
