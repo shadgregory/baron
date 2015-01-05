@@ -14,7 +14,7 @@ melody = \relative c'' {
   \time 3/4
   \repeat volta 2 {
     \partial 8*3 e8 e e |
-    c8 b16 c a8 b c d |
+    c8 b16( c) a8 b c d |
     <e b>2 <e b>4 |
     c8 b a c d e |
     <f c>8 <f c> <f c> <f c> <f c> <f c> |%5
@@ -26,29 +26,29 @@ melody = \relative c'' {
     \tuplet 3/2 {c b a}
     \tuplet 3/2 {a b c} |
     <a d>8 <a d> <a d> <a d> <a d> <a d> |
-    d4. f8 e d|%10
+    d4. f8( e) d|%10
     c8 b4 b8 gs a |
-    < b gs e >2. |
+    < b gs e >2. |%12
   }
   \repeat volta 2 {
-    \partial 8*3 b8 a b |
+    \partial 8*3 b8 a b |%13
     gs8 a  b c d b |
     c8 b a c b c ~ |
     c8 d4 d8 e f |
-    e8 d c d e f |%5
-    <g c,>8 <g c,> <g c,> <g c,> <g c,> <g c,> |
-    g8 a16 g f8 e d e |
-    <f c> <f c> <f c> <f c> <f c> <f c> |
-    f8 g16 f e8 d c d |
+    e8 d c d e f |%17
+    <g c,>8 <g c,> <g c,> <g c,> <g c,> <g c,> |%18
+    g8 a16( g) f8 e( d) e |%19
+    <f c> <f c> <f c> <f c> <f c> <f c> |%20
+    f8 g16 f e8 d c d |%21
     e8 f d4. c8 |
-    c4. b8 c d |
+    \grace b8 c4. b8 c d |
     e d c b a e' |
-    f e d c b d ~ |
+    f e d c b d ~ |%25
     d e d c b d |
     gs, fs8 ~ fs2 |
     r8 e a a16 b c8 b |
-    r8 e b b16 c d8 b |
-    c b4 b8 a8 gs |
+    r8 e, b' b16 c d8 b |
+    c b4 b8\3( a8) gs |%30
     gs8( a4) a8 a8( gs8) |
     gs8( a4) |
   }
@@ -71,14 +71,14 @@ bass = \relative c' {
 
   }
   \repeat volta 2 {
-    \partial 8*3 r8 r4 |
-    e2 e4 |
-    a2 a4 |
+    \partial 8*3 r8 r4 |%13
+    e2 e4 |%14
+    a2 a4 |%15
     b4 g2 |
-    c2 d4 |%5
+    c2 d4 |%17
     e,8 e e e e e |
-    a2. | %7
-    d8 d d d d d |
+    a2. | %19
+    d8 d d d d d |%20
     g,2. |
     c8 f, g2 |
     c2. |
@@ -86,7 +86,7 @@ bass = \relative c' {
     d2. |
     c2 d4 |
     e,4. f8 e8 d'8 |
-    c2. |
+    c2.-2 |
     gs2. |
     a8 d8 e,2 |
     r4 a4 e4 |
