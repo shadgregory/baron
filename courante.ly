@@ -28,7 +28,7 @@ melody = \relative c'' {
     <a d>8 <a d> <a d> <a d> <a d> <a d> |%8
     d4. f8( e) d|%9
     c8 b4 b8 gs a |%10
-    < b gs e >2. |%11
+    < b gs\trill e >4. |%11
   }
   \repeat volta 2 {
     \partial 8*3 b8 a b |
@@ -39,7 +39,7 @@ melody = \relative c'' {
     <g c,>8 <g c,> <g c,> <g c,> <g c,> <g c,> |%16
     g8 a16( g) f8 e( d) e |%17
     <f c> <f c> <f c> <f c> <f c> <f c> |%18
-    f8 g16 f e8 d c d |%19
+    f8 g16( f) e8( d) c d |%19
     e8 f d4.\trill c8 |%20
     \grace b8 c4. b8\3 c d |%21
     e d c b a e' |%22
@@ -67,7 +67,7 @@ bass = \relative c' {
     f8 f8 f8 f8 f8 f8 |
     e2 gs4 |%10
     a8 d8 e,2 |
-    e2. |
+    e4. |
 
   }
   \repeat volta 2 {
