@@ -31,7 +31,7 @@ melody = \relative c'' {
     < b gs\trill e >4. |%11
   }
   \repeat volta 2 {
-    \partial 8*3 b8 a b |
+    b8 a b |
     gs8 a  b c d b |%12
     c8 b a c b c ~ |%13
     c8 d4 d8 e f |
@@ -71,7 +71,7 @@ bass = \relative c' {
 
   }
   \repeat volta 2 {
-    \partial 8*3 r8 r4 |%13
+    r8 r4 |%13
     e2 e4 |%14
     a2 a4 |%15
     b4 g2 |
